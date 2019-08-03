@@ -56,12 +56,6 @@ class DatabaseSeeder extends Seeder
 		$dept->tags = "[]";
 		$dept->color = "#000";
 		$dept->save();
-
-		$dept = new Menus;
-		$dept->name = "Menus";
-		$dept->tags = "[]";
-		$dept->color = "#000";
-		$dept->save();
 		
 		// Create Super Admin Role
 		$role = new Role;
