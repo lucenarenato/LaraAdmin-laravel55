@@ -14,26 +14,28 @@
 </p>
 
 ## LaraAdmin 1.0
-
+```sh
 composer install
 php artisan la:install
-
-
 sudo chmod -R 777 storage/ bootstrap/ database/migrations/
+```
 
 ## nable Less to CSS (Optional)
 If you want to make UI Style Changes you need to generate css files from Less.
-
+```sh
 npm install
 npm install forever -g
+```
 forever start node_modules/gulp/bin/gulp.js watch
 
 ## Caso precise(opcional)
+```sh
 php artisan key:generate
 php artisan migrate --seed
 
 composer require dwij/laeditor
 php artisan la:editor
+```
 
 >  Laravel-backup host mailtrap.io
 
